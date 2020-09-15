@@ -1,7 +1,7 @@
 tensorflow
 sklearn
-numpy
-scipy
+numpy==1.18.5
+scipy==1.4.1
 matplotlib
 tqdm
 r2pipe

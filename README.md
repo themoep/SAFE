@@ -24,7 +24,8 @@ Quickstart
 To create the embedding of a function:
 ```
 git clone https://github.com/gadiluna/SAFE.git
-pip install -r requirements
+cd SAFE
+pip install -r requirements.txt
 chmod +x download_model.sh
 ./download_model.sh
 python safe.py -m data/safe.pb -i helloworld.o -a 100000F30
