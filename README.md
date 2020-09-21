@@ -25,6 +25,9 @@ To create the embedding of a function:
 ```
 git clone https://github.com/gadiluna/SAFE.git
 cd SAFE
+pyenv install 3.7.8
+pyenv virtualenv 3.7.8 SAFE-3.7.8
+pyenv local SAFE-3.7.8
 pip install -r requirements.txt
 chmod +x download_model.sh
 ./download_model.sh

@@ -1,4 +1,4 @@
-tensorflow
+tensorflow==1.15.3
 sklearn
 numpy==1.18.5
 scipy==1.4.1
