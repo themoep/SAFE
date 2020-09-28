@@ -22,12 +22,12 @@ You need [radare2](https://github.com/radare/radare2) installed in your system.
 Quickstart
 -----
 To create the embedding of a function:
-```
+```bash
 git clone https://github.com/gadiluna/SAFE.git
 cd SAFE
-pyenv install 3.7.8
-pyenv virtualenv 3.7.8 SAFE-3.7.8
-pyenv local SAFE-3.7.8
+# pyenv install 3.7.8                 # these instructions
+# pyenv virtualenv 3.7.8 SAFE-3.7.8   # can be skipped if you
+# pyenv local SAFE-3.7.8              # are using python 3.7.8
 pip install -r requirements.txt
 chmod +x download_model.sh
 ./download_model.sh
